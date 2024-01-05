@@ -49,9 +49,6 @@
 
 
 /* NOTICE */
-.notice {
-
-}
 .notice .notice-line {
     position: relative;
 }
@@ -136,36 +133,6 @@
 
 
 /* PROMOTION */
-/* .notice .promotion {
-    height: 693px;
-    background-color: #f6f5ef;
-    position: relative;
-}
-.notice .promotion .swiper-container {
-    //819px 슬라이드 3개와 그 사이 여백 10px씩 = 2477px
-    width: calc(819px*3+20px);
-    height: 553px;
-    position: absolute;
-    top: 40px;
-    left: 50%;
-    margin-left: calc((819px*3+20px) / -2);
-}
-.notice .promotion .swiper-slide {
-   opacity: .5;
-   transition: opacity 1s;
-   position: relative;
-}
-.notice .promotion .swiper-slide-active {
-    opacity: 1;
-}
- .notice .promotion .swiper-slide .btn {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-} */
-
 .notice .promotion {
     height: 693px;
     background-color: #f6f5ef;
@@ -226,6 +193,8 @@
     border: 2px solid #333;
     border-radius: 50%;
     position: absolute;
+    /* swiper container 높이의 절반만큼 끌어올림.
+    버튼 높이의 절반만큼 추가로 끌어올림 */
     top: 300px;
     z-index: 1;
     cursor: pointer;
@@ -314,6 +283,7 @@
 .youtube .youtube__area::before {
     content: "";
     display: block;
+    /* 16:9 영상 비율로 요소 크기 만들기 */
     width: 100%;
     height: 0;
     padding-top: 56.25%;
@@ -334,7 +304,6 @@
     top: 0;
     left: 0;
 }
-
 .youtube .inner {
     height: 700px;
 }
@@ -374,10 +343,6 @@
 .season-product .text-group .description {
     margin-bottom: 15px;
 }
-.season-product .text-group .more {
-
-}
-
 
 
 /* RESERVE COFFEE */
