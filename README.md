@@ -3,7 +3,7 @@
 ## 설명
 - HTML/CSS/JS를 활용하여 애니메이션을 포함한 스타벅스 랜딩 페이지 구현
 - 메인 페이지 + SIGNIN 예제
-- [DEMO 페이지로 이동](https://scintillating-gnome-7293ce.netlify.app/)
+- <a href="https://scintillating-gnome-7293ce.netlify.app/" target="_blank">DEMO 페이지로 이동</a>
 ![preview](./images/preview.png)
 
 ## 주요 파일/폴더
